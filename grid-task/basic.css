@@ -1,0 +1,37 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+html, body {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: #7A63DD;	
+}
+
+.container > div:nth-child(3) {
+    background-image: linear-gradient(to bottom right, #6954DB, #38D4DF);
+}
+
+.container > div:nth-child(2) {
+    background-image: linear-gradient(to top, #29A59C, #3CD8D0)
+}
+
+.container > div:nth-child(4n) {
+    background-image: linear-gradient(to bottom right, #6954DB, #38D4DF);
+}
+.container > div:nth-child(5n) {
+    background-image: linear-gradient(to bottom right, #6954DB, #38D4DF);
+}
+.container > div:nth-child(6n) {
+    background-color: #7A63DD;	
+}
